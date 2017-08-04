@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="#000">
+
+    <!--the question is how to think to create any type of design
+    so if you see this desing ..you mind is like creating 3 textview
+    then giving margrin between them and also from top ..but lets see
+    how could we do this in better way ...i explain u in parts....-->
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:background="#fff"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/sixteen"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="India" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:background="#fff"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/sixteen"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="India" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:background="#fff"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="@dimen/sixteen"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="India" />
+    </LinearLayout>
+
+
+</LinearLayout>

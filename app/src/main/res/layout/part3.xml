@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="#000"
+    >
+    <!--now give margin to childern layout as much as you want to
+    make them smaller..-->
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:background="#ade"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/sixteen"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="India" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:background="#abc"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/sixteen"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="India" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:background="#acd"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="@dimen/sixteen"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="India" />
+    </LinearLayout>
+
+
+</LinearLayout>

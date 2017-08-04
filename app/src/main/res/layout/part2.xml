@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="#000"
+    >
+
+    <!--then give top padding to parent layout
+    see above given 50dp..
+    if you take background color in top parent layout .it will
+    override all its childers unitl n unless childen have their
+    own background color ..so if you taling color in parent .then first
+    must give background color to all the childs ....-->
+
+    <LinearLayout
+        android:background="#ade"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/sixteen"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="India" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#abc"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/sixteen"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="India" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#acd"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="@dimen/sixteen"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="India" />
+    </LinearLayout>
+
+
+</LinearLayout>

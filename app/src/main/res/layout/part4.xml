@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="#000"
+    >
+   <!--if you have so many child you can make awesome style
+   by giving margin ..-->
+
+    <LinearLayout
+        android:layout_marginLeft="200dp"
+        android:background="#ade"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/sixteen"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hey !" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="50dp"
+        android:background="#ade"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/sixteen"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="I" />
+    </LinearLayout>
+
+    <LinearLayout
+       android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:background="#acd"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="@dimen/sixteen"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="am" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="150dp"
+        android:background="#acd"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="@dimen/sixteen"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ajay" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="200dp"
+        android:background="#acd"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="@dimen/sixteen"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mehta" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
